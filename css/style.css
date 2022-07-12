@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 #hero-image {
     height:500px;
     width:100%;
     background:url('../images/hero-image.jpg') center center;
+}
+
+.front-image {
+    height:500px;
+    width:100%;
+    background:url('../images/hero-image.jpg');
 }
 
 body{
@@ -9,7 +17,12 @@ body{
 }
 
 header {
-    font-size:300%;
+    font-size: 2.75rem;
     text-align: center;
     color:aliceblue;
+}
+
+nav {
+    text-align: center;
+    font-size:
 }
