@@ -17,10 +17,9 @@ body{
 }
 
 header {
-    font-size: 2.75rem;
+    font-size: 3.5rem;
     text-align: center;
-    color:aliceblue;
-
+    color:rgb(252, 251, 250);
 }
 
 h1 {
@@ -44,7 +43,7 @@ nav a:hover {
 }
 
 section h2 {
-    font-size:2rem
+    font-size:3rem;
 }
 
 #menu h3 {
@@ -52,19 +51,22 @@ section h2 {
 }
 
 #starters {
-    margin:auto;
-    line-height: 50px;
+    height:1000px;
 }
 
 #left-starter-pictures{
     width:33%;
     float:left;
+    background-color: green;
+    line-height: 100px;
 }
 
 #right-starter-pictures{
     width:33%;
     float:right;
-    margin:
+    background-color: blue;
+    line-height: 100px;
+    padding-top: 50px;
 }
 
 #starters-center {
@@ -72,6 +74,7 @@ section h2 {
     margin:0 auto;
     display:inline;
     line-height: 40px;
+    background-color: red;
 }
 
 br > em {
@@ -84,6 +87,7 @@ br > em {
 
 #drinks {
     background: url('../images/koi-fish.jpg') fixed;
+    height:1500px;
 }
 
 ul {
@@ -101,8 +105,29 @@ ul {
 footer{
     text-align: center;
     background-color: gold;
+    text-transform: uppercase;
+}
+
+footer a:hover {
+    color:red;
+}
+
+.grey {
+    background-color: rgb(214, 210, 210);
+}
+
+.forms {
+    margin:25px auto;
+    padding:25px ;
+    width:800px;
+    border-radius: 10px;
+    background-color: whitesmoke;
 }
 
 @media screen and (max-width:1200px) {
+    
+}
+
+@media screen and (max-width: 500px;) {
     
 }
