@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+body {
+    margin:0;
+    background-color: whitesmoke;
+}
+
 #hero-image {
-    height:500px;
+    height:50vh;
     width:100%;
-    background:url('../images/hero-image.jpg') center center;
+    background:url('../images/hero-image.jpg') center 75% / cover no-repeat;
 }
 
 .front-image {
     height:500px;
     width:100%;
     background:url('../images/hero-image.jpg');
-}
-
-body{
-    background-color: white;
 }
 
 header {
@@ -24,6 +25,7 @@ header {
 
 h1 {
     font-family: 'EB Garamond', sans-serif;
+    margin:0;
 }
 
 nav {
@@ -34,6 +36,22 @@ nav {
 
 nav a:hover {
     color:rgb(174, 4, 35);
+}
+
+#reasons {
+    text-align: center;
+    background:red;
+    padding: 5px;
+    border-radius:10px;
+    width:50%;
+    background-position: center;
+    margin:25px auto 5px;
+    line-height: normal;
+}
+
+#reasons-header {
+    margin:10px;
+    padding:0;
 }
 
 #menu {
@@ -58,15 +76,17 @@ section h2 {
     width:33%;
     float:left;
     background-color: green;
-    line-height: 100px;
+    line-height: 150px;
+
 }
 
 #right-starter-pictures{
     width:33%;
     float:right;
     background-color: blue;
-    line-height: 100px;
-    padding-top: 50px;
+    line-height: 150px;
+    padding-top: 150px;
+
 }
 
 #starters-center {
@@ -74,7 +94,16 @@ section h2 {
     margin:0 auto;
     display:inline;
     line-height: 40px;
-    background-color: red;
+    
+}
+
+.starter-image {
+    border-radius: 50%;
+    padding:10px;
+    margin:10px;
+    background-color:gold;
+    height:300px;
+    width:300px;
 }
 
 br > em {
@@ -92,20 +121,52 @@ br > em {
 
 ul {
     list-style: none;
+    display: inline;
 }
 
-.font-size {
-    font-size:1.5rem;
+#contact {
+
 }
 
-.block-element{
-    display:block;
+#opening-hours {
+    background-color: green;
+    width: 25%;
+    text-align: center;
+    padding:50px;
+    margin:10px auto;
+}
+
+#table {
+    background-color: yellow;
+}
+
+#address {
+    background-color: red;
+    width:25%;
+    text-align: center;
+    padding: 50px;
+    margin: 10px auto;
+    position:relative;
+    right:20%;
+}
+
+#get-in-touch {
+    background-color: blue;
+    width: 25%;
+    text-align: center;
+    padding:50px;
+    margin:10px auto;
+    position: relative;
+    left:20%;
+    bottom:100px;
 }
 
 footer{
     text-align: center;
     background-color: gold;
     text-transform: uppercase;
+    padding:15px 10px;
+    line-height: 25px;
 }
 
 footer a:hover {
@@ -121,7 +182,7 @@ footer a:hover {
     padding:25px ;
     width:800px;
     border-radius: 10px;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 @media screen and (max-width:1200px) {
