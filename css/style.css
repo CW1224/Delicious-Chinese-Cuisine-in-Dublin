@@ -28,10 +28,13 @@ h1 {
     margin:0;
 }
 
-nav {
-    text-align: center;
+#primary-navigation {
     font-size:1.25rem;
-    background-color:gold;
+    background-color:none;
+    z-index:1;
+    position:fixed;
+    top:0;
+    right:0;
 }
 
 nav a:hover {
@@ -58,10 +61,14 @@ nav a:hover {
     text-align:center;
     color:black;
     font-style:'EB Garamond',sans-serif;
+    font-size: x-large;
 }
 
 section h2 {
     font-size:3rem;
+    text-align: center;
+    font-weight: 800;
+    line-height: 200px;
 }
 
 #menu h3 {
@@ -80,6 +87,27 @@ section h2 {
 
 }
 
+#spring-rolls {
+    position: relative;
+}
+
+#ribs {
+    position: relative;
+    z-index: 1;
+}
+
+#gyoza {
+    position: relative;
+
+    z-index: 1;
+}
+
+#crispy-wontons {
+    position: relative;
+    right:15px;
+    
+}
+
 #right-starter-pictures{
     width:33%;
     float:right;
@@ -93,8 +121,7 @@ section h2 {
     width:33%;
     margin:0 auto;
     display:inline;
-    line-height: 40px;
-    
+    line-height: 40px;   
 }
 
 .starter-image {
@@ -125,7 +152,8 @@ ul {
 }
 
 #contact {
-
+    height:900px;
+    font-size: x-large;
 }
 
 #opening-hours {
@@ -134,10 +162,15 @@ ul {
     text-align: center;
     padding:50px;
     margin:10px auto;
+    position: relative;
+    left:2%;
 }
 
 #table {
     background-color: yellow;
+    position:absolute;
+    top:50%;
+    left:50%;
 }
 
 #address {
@@ -174,15 +207,83 @@ footer a:hover {
 }
 
 .grey {
-    background-color: rgb(214, 210, 210);
+    background-color: rgb(237, 237, 134);
 }
 
 .forms {
-    margin:25px auto;
-    padding:25px ;
+    margin:10px auto;
     width:800px;
+    padding:25px;
     border-radius: 10px;
     background-color: white;
+}
+
+fieldset {
+    border-style: none;
+}
+
+.line-height {
+    line-height:30px;
+}
+
+legend {
+    text-transform: uppercase;
+    font-family:'EB Garamond', sans-serif;
+    font-size:x-large;
+    text-align: center;
+    padding:15px 10px 0px;
+    text-decoration: underline;
+    font-weight: 550;
+}
+
+#introduction {
+    font-size: xx-large;
+    padding:200px 0px 0px 0px;
+}
+
+.below-hero-image {
+    text-align: center;
+    font-size:1.25rem;
+    background-color:none;
+    padding:10px;
+}
+
+#address-line {
+    margin:10px 0 5px;
+    font-weight: 700;
+}
+
+.submit-button {
+    border-radius: 10%;
+    color:black;
+    background-color: rgb(204, 235, 28);
+    padding:15px;
+    margin:25px 20px;
+}
+
+.reset-button {
+    border-radius: 10%;
+    color:white;
+    background-color: rgb(227, 38, 28);
+    float:right;
+    margin:15px;
+}
+
+.reset-button-2 {
+    border-radius: 10%;
+    color:white;
+    background-color: rgb(227, 38, 28);
+    float:right;
+    position:relative;
+    bottom:20px;
+}
+
+#terms {
+    height: 300px;
+    width: 780px;
+    overflow: scroll;
+    border-style:dotted;
+    padding:10px;
 }
 
 @media screen and (max-width:1200px) {
