@@ -144,7 +144,11 @@ br > em {
 #drinks {
     background: url('../images/koi-fish.jpg') fixed;
     height:1500px;
+    color:whitesmoke;
+    text-align: center;
+    font-size: x-large;
 }
+
 
 ul {
     list-style: none;
@@ -234,6 +238,7 @@ legend {
     padding:15px 10px 0px;
     text-decoration: underline;
     font-weight: 550;
+    margin:10px 0 15px;
 }
 
 #introduction {
@@ -273,8 +278,8 @@ legend {
     border-radius: 10%;
     color:white;
     background-color: rgb(227, 38, 28);
-    float:right;
-    position:relative;
+    float: right;
+    position: relative;
     bottom:20px;
 }
 
