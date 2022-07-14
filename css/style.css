@@ -2,7 +2,7 @@
 
 body {
     margin:0;
-    background-color: whitesmoke;
+    background-color: rgb(247, 247, 134);
 }
 
 #hero-image {
@@ -23,6 +23,12 @@ header {
     color:rgb(252, 251, 250);
 }
 
+header > p {
+    font-size:2rem;
+    padding:10px;
+    color:black;
+}
+
 h1 {
     font-family: 'EB Garamond', sans-serif;
     margin:0;
@@ -31,7 +37,7 @@ h1 {
 #primary-navigation {
     font-size:1.25rem;
     background-color:none;
-    z-index:1;
+    z-index:2;
     position:fixed;
     top:0;
     right:0;
@@ -44,17 +50,20 @@ nav a:hover {
 #reasons {
     text-align: center;
     background:red;
-    padding: 5px;
+    padding: 0;
     border-radius:10px;
     width:50%;
     background-position: center;
-    margin:25px auto 5px;
+    margin: 10px auto;
     line-height: normal;
 }
 
-#reasons-header {
-    margin:10px;
+#reasons-list {
+    margin:0;
     padding:0;
+    position: relative;
+    bottom:50px;
+    font-size: large;
 }
 
 #menu {
@@ -68,50 +77,55 @@ section h2 {
     font-size:3rem;
     text-align: center;
     font-weight: 800;
-    line-height: 200px;
+    padding:50px 0 100px;
+    text-decoration: underline;
 }
 
 #menu h3 {
-    font-size:1.5rem;
+    font-size:2rem;
+    font-weight: 600;
 }
 
 #starters {
-    height:1000px;
+    height:800px;
 }
 
 #left-starter-pictures{
     width:33%;
     float:left;
-    background-color: green;
     line-height: 150px;
 
 }
 
 #spring-rolls {
     position: relative;
+    right:50px;
+    
 }
 
 #ribs {
     position: relative;
+    left:130px;
     z-index: 1;
+    bottom:300px;
 }
 
 #gyoza {
     position: relative;
-
+    left:130px;
     z-index: 1;
+    bottom:300px;
 }
 
 #crispy-wontons {
     position: relative;
-    right:15px;
+    right:70px;
     
 }
 
 #right-starter-pictures{
     width:33%;
     float:right;
-    background-color: blue;
     line-height: 150px;
     padding-top: 150px;
 
@@ -121,7 +135,7 @@ section h2 {
     width:33%;
     margin:0 auto;
     display:inline;
-    line-height: 40px;   
+    line-height: 60px;   
 }
 
 .starter-image {
@@ -133,12 +147,13 @@ section h2 {
     width:300px;
 }
 
-br > em {
-    line-height: 15px;
-}
-
 #main-course {
     display: inline;
+}
+
+#main-course-images {
+    width:70%;
+    height:700px;
 }
 
 #drinks {
@@ -147,6 +162,7 @@ br > em {
     color:whitesmoke;
     text-align: center;
     font-size: x-large;
+    line-height: 35px;
 }
 
 
@@ -156,54 +172,65 @@ ul {
 }
 
 #contact {
-    height:900px;
+    height:1000px;
     font-size: x-large;
 }
 
+#contact > h2 {
+    margin:30px 0;
+}
+
 #opening-hours {
-    background-color: green;
+    background-color: white;
     width: 25%;
     text-align: center;
     padding:50px;
     margin:10px auto;
     position: relative;
-    left:2%;
+    left:5%;
+    bottom:5%;
+    border-radius: 50%;
+    border-color: aqua;
 }
 
 #table {
-    background-color: yellow;
-    position:absolute;
-    top:50%;
-    left:50%;
+    background-color: white;
+    position: relative;
+    left:50px;
 }
 
 #address {
-    background-color: red;
+    background-color: white;
     width:25%;
     text-align: center;
     padding: 50px;
     margin: 10px auto;
     position:relative;
     right:20%;
+    bottom:10%;
+    border-radius: 50%;
+    border-color: aqua;
 }
 
 #get-in-touch {
-    background-color: blue;
+    background-color: white;
     width: 25%;
     text-align: center;
-    padding:50px;
+    padding:80px;
     margin:10px auto;
     position: relative;
-    left:20%;
-    bottom:100px;
+    left:25%;
+    bottom:300px;
+    border-radius: 50%;
+    border-color: aqua;
 }
 
 footer{
     text-align: center;
-    background-color: gold;
+    background-color: whitesmoke;
     text-transform: uppercase;
-    padding:15px 10px;
-    line-height: 25px;
+    padding:0;
+    line-height: 15px;
 }
 
 footer a:hover {
@@ -243,7 +270,7 @@ legend {
 
 #introduction {
     font-size: xx-large;
-    padding:200px 0px 0px 0px;
+    padding:140px 0px 0px 0px;
 }
 
 .below-hero-image {
@@ -256,6 +283,11 @@ legend {
 #address-line {
     margin:10px 0 5px;
     font-weight: 700;
+}
+
+#work-experience {
+    width:100%;
+    margin:10px auto;
 }
 
 .submit-button {
@@ -291,10 +323,29 @@ legend {
     padding:10px;
 }
 
-@media screen and (max-width:1200px) {
-    
+@media screen and (min-width:520px) (max-width:1000px) {
+    nav {
+        font-size: medium;
+    }
+
+    .forms {
+        margin:10px auto;
+        width:90%;
+        padding:0;
+    }
+
+    .starter-image{
+        height:150px;
+        width:150px;
+    }
+    header {
+        font-size:2.75rem;
+    }
+    #introduction {
+        font-size: x-large;
+    }
 }
 
-@media screen and (max-width: 500px;) {
-    
+@media screen and (max-width:520px) {
+
 }

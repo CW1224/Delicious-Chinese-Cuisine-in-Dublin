@@ -28,8 +28,8 @@
     <section>
         <div id="reasons">
             <!--This project was influenced by the Coders Coffeehouse website and Keep Running-->
-            <h2 id="reasons-header">Reasons to choose us</h2>
-            <ul>
+            <h2>Reasons to choose us</h2>
+            <ul id="reasons-list">
                 <li>Affordable Prices</li>
                 <li>Free Unlimited Wifi</li>
                 <li>Grand Selection of Mouthwatering Dishes</li>
@@ -42,14 +42,14 @@
         <div id="starters">
             <h3>Starters</h3>
             <div id="left-starter-pictures">
-                <img src="images/spring-rolls.jpg" alt="Picture of a pile of Spring Rolls." class="starter-image                <img src="images/spring-rolls.jpg" alt="Picture of a pile of Spring Rolls." class="starter-image">
+                <img src="images/spring-rolls.jpg" alt="Picture of a pile of spring rolls." class="starter-image" id="spring-rolls">
                 <br>
-                <img src="images/sichuan-pork.jpg" alt="Picture of a pile of Spring Rolls." class="starter-image">
+                <img src="images/spare-ribs.jpg" alt="Picture of a pile of ribs." class="starter-image" id="ribs">
             </div>
             <div id="right-starter-pictures">
-                <img src="images/sweet-sour-pork.jpg" alt="Picture of a pile of Spring Rolls." class="starter-image                <img src="images/sweet-sour-pork.jpg" alt="Picture of a pile of Spring Rolls." class="starter-image">
+                <img src="images/crispy-wonton.jpg" alt="Picture of a pile of crispy wontons." class="starter-image" id="crispy-wontons">
                 <br>
-                <img src="images/hero-image.jpg" alt="Picture of a pile of Spring Rolls." class="starter-image">
+                <img src="images/gyoza.jpg" alt="Picture of five dumplings." class="starter-image" id="gyoza">
             </div>
             <div id="starters-center">
                 <ul>
@@ -57,22 +57,24 @@
                     <li>Spring Rolls</li> 
                     <li>Vegetable Spring Rolls</li>
                     <li>Satay Chicken Skewers</li>
-                    <li>Spare Ribs<em>With Barbeque/King-do/Sweet-Sour/Honey sauce</em></li>
+                    <li>Spare Ribs <em>(With Barbeque/King-do/Sweet-Sour/Honey sauce)</em></li>
                     <li>Crispy Won Ton</li>
                     <li>Pork Yuk Sung</li>
-                    <li>Aromatic Duck<em>Half or Quarter</em></li>
-                    <li>House Platter<em>2 Spare Ribs + 2 Crispy Won Ton + 2 Spring Rolls + 2 Chicken Gyoza</em></li>
+                    <li>Aromatic Duck<em>(Half or Quarter)</em></li>
                 </ul>
             </div>
         </div>
+        <br>
         <div>
             <h3>Main Course</h3>
-            <p>All dishes have a choice of Chicken/Beef/Pork/King Prawn/Duck <br> One serving of boiled rice/fried rice/chips/fried noodles is included with each dish except chow mein and fried rice dishes.</p>
+            <p>All dishes have a choice of Chicken/Beef/Pork/King Prawns/Duck</p>
+            <p>One serving of boiled rice/fried rice/chips/fried noodles is included with each dish except for chow mein and fried rice dishes</p>
             <ul id="main-course">
                 <li>
                     <details>
                     <summary>Sweet Sour Dishes</summary>
                     <p>A meat of your choice cooked with vegetables in a sweet and sour sauce with a side dish of your choice. Perfect for people with a sweet tooth and children.</p>
+                    <img class="main-course-images" src="images/sweet-sour-pork.jpg" alt="Picture of pork cooked in a sweet-sour sauce!">
                     </details>
                 </li>
                 <li>
@@ -121,12 +123,14 @@
                     <details>
                     <summary>Curry Dishes</summary>
                     <p>A meat of your choice cooked with onions in a curry sauce. The curry sauce can be made extra hot upon a customer's request. </p>
+                    <img class="main-course-images" src="images/curry.jpg" alt="Picture of a bowl of curry">
                     </details>
                 </li>
                 <li>
                     <details>
                     <summary>Szechuan Dishes</summary>
                     <p>A meat of your choice cooked with vegetables and lots of chillis and spices in a spicy sauce. Perfect for people who can eat really spicy. </p>
+                    <img class="main-course-images" scr="images/si-chuan-pork.jpg" alt="Picture of a dish of szechuan pork with loads of chillis!">
                     </details>
                 </li>
                 <li>
@@ -145,12 +149,14 @@
                     <details>
                     <summary>Chow Mein Dishes</summary>
                     <p>A meat of your choice cooked with vegetables and noodles (a choice between egg or rice noodles). Can be made spicy upon customer's request.</p>
+                    <img class="main-course-images" src="images/prawn-noodle.jpg" alt="Picture of rice noodles topped with prawns and vegetables">
                     </details>
                 </li>
                 <li>
                     <details>
                     <summary>Fried Rice Dishes</summary>
                     <p>A meat of your choice cooked with vegetables and fried rice.</p>
+                    <img class="main-course-images" src="images/fried-rice.jpg" alt="Picture of fried rice">
                     </details>
                 </li>
             </ul>
@@ -209,6 +215,7 @@
                 <li>Tiger</li>
                 <li>Tsingtao</li>
                 <li>Budweiser</li>
+                <li>Heineken</li>
             </ul>
         </div>
     </section>
@@ -220,20 +227,24 @@
             <table id="table">
                 <tr>
                     <th></th>
+                    <th></th>
                     <th>Open</th>
                     <th>Close</th>
                 </tr>
                 <tr>
-                    <td>Monday - Thursday</td>
+                    <td>Monday -</td>
+                    <td>Thursday</td>
                     <td>5pm</td>
                     <td>11pm</td>
                 </tr>
                 <tr>
-                    <td>Friday - Saturday</td>
+                    <td>Friday -</td>
+                    <td>Saturday</td>
                     <td>5pm</td>
                     <td>12pm</td>
                 </tr>
                 <tr>
+                    <td></td>
                     <td>Sunday</td>
                     <td>3pm</td>
                     <td>11pm</td>
@@ -263,7 +274,7 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2384.912782214807!2d-6.135994683980027!3d53.29109738654887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486706245d93b3ef%3A0x2ec9807dee751d31!2sAnglesea%20Buildings%2C%20George&#39;s%20Street%20Upper%2C%20D%C3%BAn%20Laoghaire%2C%20Dublin!5e0!3m2!1sen!2sie!4v1657438359390!5m2!1sen!2sie" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
-    <footer class="align-center uppercase">
+    <footer class="align-center">
         <span>Find us on:</span>
         <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook)">Facebook</a>
         <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram">Instagram</a>
