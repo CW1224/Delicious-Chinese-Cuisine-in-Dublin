@@ -2,7 +2,7 @@
 
 body {
     margin:0;
-    background-color: rgb(247, 247, 134);
+    background-color: white;
 }
 
 #hero-image {
@@ -34,6 +34,8 @@ h1 {
     margin:0;
 }
 
+/*Styling for the navigation section, the one below is for the main-page of the website.*/
+
 #primary-navigation {
     font-size:1.25rem;
     background-color:none;
@@ -41,10 +43,20 @@ h1 {
     position:fixed;
     top:0;
     right:0;
+    display:flex;
 }
 
 nav a:hover {
     color:rgb(174, 4, 35);
+}
+
+/*This one is for the form and survey.*/
+
+.below-hero-image {
+    text-align: center;
+    font-size:1.25rem;
+    background-color:none;
+    padding:10px;
 }
 
 #reasons {
@@ -65,12 +77,15 @@ nav a:hover {
     bottom:50px;
     font-size: large;
 }
+ 
+/* Styling for the whole menu section.*/
 
 #menu {
-    text-align:center;
     color:black;
     font-style:'EB Garamond',sans-serif;
     font-size: x-large;
+    text-align: center;
+    height:2400px;
 }
 
 section h2 {
@@ -78,7 +93,6 @@ section h2 {
     text-align: center;
     font-weight: 800;
     padding:50px 0 100px;
-    text-decoration: underline;
 }
 
 #menu h3 {
@@ -86,21 +100,16 @@ section h2 {
     font-weight: 600;
 }
 
-#starters {
-    height:700px;
-}
+/*Styling for the starters section of the menu*/
 
 #left-starter-pictures{
     width:33%;
     float:left;
-    line-height: 150px;
-
 }
 
 #spring-rolls {
     position: relative;
     right:50px;
-    
 }
 
 #ribs {
@@ -120,13 +129,11 @@ section h2 {
 #crispy-wontons {
     position: relative;
     right:70px;
-    
 }
 
 #right-starter-pictures{
     width:33%;
     float:right;
-    padding-top: 150px;
 }
 
 #starters-center {
@@ -145,8 +152,17 @@ section h2 {
     width:300px;
 }
 
+/*Starting on the styling for the main-course*/
+
 #main-course {
-    display: inline;
+    background-color:rgb(247, 247, 134);
+    padding:50px 50px;
+    float:left;
+    margin:0 0 0 120px;
+    width:640px;
+}
+
+#main-course-list {
     width:800px;
 }
 
@@ -156,15 +172,20 @@ section h2 {
 }
 
 #dessert {
+    margin:0 120px 0 0;
+    background-color: rgb(163, 233, 70);
+    height:725px;
+    width:25%;
+    float:right;
+}
+
+#dessert-list {
     line-height: 45px;
 }
 
 #ice-cream {
     height:200px;
-    width:25%;
-    position: relative;
-    right:25%;
-    bottom:200px;
+    width:200px;
 }
 
 #drinks {
@@ -262,6 +283,8 @@ footer a:hover {
     color:red;
 }
 
+/*Styling for the form and survey.*/
+
 .grey {
     background-color: rgb(237, 237, 134);
 }
@@ -296,13 +319,6 @@ legend {
 #introduction {
     font-size: xx-large;
     padding:140px 0px 0px 0px;
-}
-
-.below-hero-image {
-    text-align: center;
-    font-size:1.25rem;
-    background-color:none;
-    padding:10px;
 }
 
 #address-line {
@@ -347,6 +363,10 @@ legend {
     margin:auto;
     border-style:dotted;
     padding:10px;
+}
+
+@media screen and (min-height:1000px) and (max-height:1450px) {
+
 }
 
 @media screen and (min-width:520px) and (max-width:1000px) {
