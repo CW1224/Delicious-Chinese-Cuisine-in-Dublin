@@ -100,7 +100,8 @@ section h2 {
     font-weight: 600;
 }
 
-/*Styling for the starters section of the menu*/
+/*Styling for the starters section of the menu
+Starting the style for the left side of the starter menu*/
 
 #left-starter-pictures{
     width:33%;
@@ -119,6 +120,13 @@ section h2 {
     bottom:300px;
 }
 
+/*Starting the pictures for the right side of the starter's menu*/
+
+#right-starter-pictures{
+    width:33%;
+    float:right;
+}
+
 #gyoza {
     position: relative;
     left:130px;
@@ -131,10 +139,7 @@ section h2 {
     right:70px;
 }
 
-#right-starter-pictures{
-    width:33%;
-    float:right;
-}
+/*Styling the center or the core of the starters menu*/
 
 #starters-center {
     width:33%;
@@ -162,14 +167,20 @@ section h2 {
     width:640px;
 }
 
+#main-course h3 {
+    margin:0 0 60px 0;
+}
+
 #main-course-list {
     width:800px;
 }
 
-#main-course-images {
-    width:70%;
-    height:700px;
+.main-course-images {
+    width:400px;
+    height:350px;
 }
+
+/*Start of the dessert section.*/
 
 #dessert {
     margin:0 120px 0 0;
@@ -184,8 +195,9 @@ section h2 {
 }
 
 #ice-cream {
-    height:200px;
+    height:220px;
     width:200px;
+    margin:25px;
 }
 
 #drinks {
