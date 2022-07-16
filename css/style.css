@@ -5,6 +5,8 @@ body {
     background-color: white;
 }
 
+/*Styling and adding in the hero image. I got this inspiration from the Coder's Coffeehouse website.*/
+
 #hero-image {
     height:50vh;
     width:100%;
@@ -101,7 +103,8 @@ section h2 {
 }
 
 /*Styling for the starters section of the menu
-Starting the style for the left side of the starter menu*/
+Starting the style for the left side of the starter menu
+This section was influenced by the Keep Running project. The three sections consist of 2 image sections and one descriptive section.*/
 
 #left-starter-pictures{
     width:33%;
