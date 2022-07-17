@@ -412,7 +412,7 @@ legend {
     width:100%;
     margin: 15px auto;
 }
-
+/*Styling for the two buttons*/
 .submit-button {
     border-radius: 10%;
     color:black;
@@ -440,7 +440,7 @@ legend {
     bottom:20px;
     cursor: pointer;
 }
-
+/*Styling the block of code from Code Institute*/
 #terms {
     height: 300px;
     width: 90%;
@@ -462,10 +462,10 @@ legend {
     }
 }
 
-/*Modified to accomodate the change in form size.*/
+/*Modified to accomodate the change in screen size.*/
 
 @media screen and (max-width:1000px) {
-
+/*Changing the navigation screen*/
     .checkbutton {
         display:block;
     }
@@ -502,7 +502,7 @@ legend {
     #check:checked ~ ul,#check-1:checked ~ ul,#check-2:checked ~ ul {
         left:0;
     }
-
+/*Adjusting the menu style*/
     #starters {
         height:770px;
         background-color: pink;
@@ -591,7 +591,7 @@ legend {
     #contact {
         height:auto;
     }
-
+/*Changed so that the contact information section can stack on one another.*/
     #opening-hours {
         width: 90%;
         text-align: center;
@@ -621,6 +621,8 @@ legend {
         margin: auto;
         padding-top: 20px;
     }
+/*Think I might've written in the same code twice? I'll comment as I go in the next project.
+It's so confusing without these green tags:'(*/
     .forms {
         margin:10px auto;
         width:90%;

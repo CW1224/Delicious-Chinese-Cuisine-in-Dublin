@@ -9,13 +9,13 @@ You can find a link to my website [here]()
 
 # Table of Contents
 [1.User Experience(UX)](#1-user-experience)
-- [1.1 User Goals](#1.1-user-goals)
-- [1.2 User Expectations](#1.2-user-expectations)
-- [1.3 Colour Scheme and Font](#1.3-color-scheme-and-font)
-- [1.4 Visual Images](#1.4-visual-images)
-- [1.5 Skeleton Framework](#1.5-skeleton-framework)
-    - [1.5.1 Front Page](#1.5.1-front-page)
-    - [1.5.2 Recruitment and Survey Page](#1.5.2recruitment-and-survey-page)
+- 1.1 User Goals
+- 1.2 User Expectations
+- 1.3 Colour Scheme and Font
+- 1.4 Visual Images
+- 1.5 Skeleton Framework
+    - 1.5.1 Front Page
+    - 1.5.2 Recruitment and Survey Page
 
 [2.Features](#2-features)
 
@@ -29,7 +29,9 @@ You can find a link to my website [here]()
 
 [7. Project Completion](#7-project-completion)
 
-[8.Acknowledgements](#8-acknowledgements)
+[8. Improvements](#8-improvements)
+
+[9.Acknowledgements](#9-acknowledgements)
 
 # 1. User Experience
 
@@ -266,9 +268,13 @@ Twitter | Upon clicking the Twitter button, I get redirected to the Twitter main
 
 ### 4.1.4 Website Analysis on a Desktop using Lighthouse
 
+The accessibility test of my website on a desktop is pretty good but I think I can improve it by reducing the size of the image I put it.
+
 ![Website Analysis on Desktop](/assets/screenshot/desktop-lighthouse.png)
 
 ### 4.1.5 Website Analysis on a Mobile using Lighthouse
+
+I could definitely improve the accessibility of the mobile version by significantly reducing the size of the images I put in. The performance is ideally above 90. I would adjust this once all my grades are back.
 
 ![Website Analysis on Mobile](/assets/screenshot/mobile-lighthouse.png)
 
@@ -364,9 +370,37 @@ The site was deployed to Github using the following steps:
 
 # 7. Project Completion
 
+## Desktop Version of my Project
 
+This is the desktop version of my project.
 
-# 8. Acknowledgements
+![Screenshot](/assets/screenshot/sc-1.png)
+![Screenshot-1](/assets/screenshot/sc-2.png)
+![Screenshot-2](/assets/screenshot/sc-3.png)
+![Screenshot-3](/assets/screenshot/sc-4.png)
+![Screenshot-4](/assets/screenshot/sc-5.png)
+![Screenshot-5](/assets/screenshot/sc-6.png)
+![Screenshot-6](/assets/screenshot/sc-7.png)
+
+## Mobile Version of my Project
+
+This is the mobile version of my project.
+
+![Screenshot-7](/assets/screenshot/mb-1.png)
+![Screenshot-8](/assets/screenshot/mb-2.png)
+![Screenshot-9](/assets/screenshot/mb-3.png)
+![Screenshot-10](/assets/screenshot/mb-4.png)
+![Screenshot-11](/assets/screenshot/mb-5.png)
+![Screenshot-12](/assets/screenshot/mb-6.png)
+![Screenshot-13](/assets/screenshot/mb-7.png)
+![Screenshot-14](/assets/screenshot/mb-8.png)
+![Screenshot-15](/assets/screenshot/mb-9.png)
+
+# 8. Improvements
+
+If I were to do this project again, I would definitely spend more time on the @media part of the css stylesheets. This was the part I found to be the most time-consuming and thought-provoking. It was annoying how the margin kept goind out of place and how the screen would be more than 100% in width. Next time, I would definitely spend more time thinking about the webframe and adding in more details before I start writing the code itself. Planning is essential. That is the key feedback I would give myself after completing this project.
+
+# 9. Acknowledgements
 
 [Return to the Table of Contents](#table-of-contents)
 
@@ -390,7 +424,7 @@ The site was deployed to Github using the following steps:
     - Village by <a href="https://pixabay.com/users/htb888-14650717/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4717743">波 胡</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4717743">Pixabay</a>
     - City by <a href="https://pixabay.com/users/jcx516-2412606/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6156596">琛茜 蒋</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6156596">Pixabay</a>
 
-* For the navigation link, the youtube channel https://www.youtube.com/watch?v=oLgtucwjVII was used and modified.
+* For the navigation link, the youtube channel https://www.youtube.com/watch?v=oLgtucwjVII was used and modified. I used his code initially but my results were different to his due to the amount of other styles I've added in beforehand. So I adjusted his original code and made it adjust to my website.
 * For the Readme file, reference of https://github.com/dhakal79/Portfolio-project-MS1 was considered.
 * The majority of dishes that I have on this menu came from my father. He is a chef and he has made beautiful chinese cuisine for our family overr the years. Some of these dishes can also be found in chinese restaurants all over Dublin.
 * The fa-solid fa-bars-staggered came from Font Awesome.
