@@ -298,41 +298,45 @@ ul {
 }
 
 #contact > h2 {
-    margin:30px 0 30px;
+    margin:45px 0;
     padding:0;
 }
 
 #opening-hours {
-    background-color: red;
+    background:url('../images/village.jpg') center; 
     width: 33%;
     text-align: center;
     height:300px;
     float:left;
     margin: 0 0 20px;
+    color:white;
 }
 
 #table {
     background-color: none;
     margin-left: auto;
     margin-right: auto;
+    color:white;
 }
 
 #get-in-touch {
-    background-color: blue;
+    background:url('../images/city.jpg') center;
     width: 33%;
     text-align: center;
     height:300px;
     float:right;
     margin: 0 0 20px;
+    color:black;
 }
 
 #address {
-    background-color: green;
+    background:url('../images/great-wall.jpg') center;
     width:33%;
     text-align: center;
     height:295px;
     margin: 0 auto 20px;
     padding-top:5px;
+    color:white;
 }
 
 #address > h3 {
