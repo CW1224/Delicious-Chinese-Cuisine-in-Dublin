@@ -81,15 +81,16 @@ I created three web pages altogether for my website, one for the home page, one 
 ### Front Page
 
 [Return to the Table of Contents](#table-of-contents)
-### Recruitment and Survey Page
 
-[Link to form web frame for website]()
-[Link to form web frame for phone]()
+![Link to form web frame for website](/screenshot/screenshot-webframe-1.png)
+![Link to form web frame for phone](/screenshot/screenshot-webframe-2.png)
+
+### Recruitment and Survey Page
 
 [Return to the Table of Contents](#table-of-contents)
 
-[Link to form web frame for website]()
-[Link to form web frame for phone]()
+![Link to form web frame for website](/screenshot/screenshot-webframe-4.png)
+![Link to form web frame for phone](/screenshot/screenshot-webframe-3.png)
 
 # 2. Features
 
@@ -161,8 +162,11 @@ The site was deployed to Github using the following steps:
     - Sichuan Pork by <a href="https://pixabay.com/users/勇雨掠过-22256511/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6368455">YU ZHANG</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6368455">Pixabay</a>
     - Prawn Dumplings by <a href="https://pixabay.com/users/kkppwoshizhu-229552/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=328924">南 凌</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=328924">Pixabay</a>
     - Wine by <a href="https://pixabay.com/users/photomix-company-1546875/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1717650">Photo Mix</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1717650">Pixabay</a>
+    - Great Wall by <a href="https://pixabay.com/users/jlb1988-3569930/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3022907">JLB1988</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3022907">Pixabay</a>
+    - Village by <a href="https://pixabay.com/users/htb888-14650717/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4717743">波 胡</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4717743">Pixabay</a>
+    - City by <a href="https://pixabay.com/users/leslin_liu-5650887/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3459422">Leslin_Liu</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3459422">Pixabay</a>
 
-* For
+* For the navigation link, the youtube channel https://www.youtube.com/watch?v=oLgtucwjVII was used and modified.
 * For the Readme file, reference of https://github.com/dhakal79/Portfolio-project-MS1 was considered.
 
 

@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descrition" content="Enjoy wonderful dishes prepared by a team of talented chefs and experience the joy of chinese cuisine.">
+    <meta name="keywords" content="cuisine chinese food chef restaurant menu starters drinks dessert">
+    <script src="https://kit.fontawesome.com/b1d3dda326.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Delicious Chinese Cuisine in Ireland</title>
 </head>
 <body>
-    <section>
+    <section id="home">
         <div id="hero-image">
             <header>
                 <h1>Jin Li Wang</h1>
@@ -17,18 +20,25 @@
          </header>
         </div>
     </section>
-    <nav id="primary-navigation">
-        <a href="#home" aria-label="Go to the top of the page">Home</a>
-        <a href="#menu" aria-label="Go to the menu">Menu</a>
-        <a href="#drinks" aria-label="Go to the drinks menu">Drinks</a>
-        <a href="#contact" aria-label="Go to contact information section">Contact</a>
-        <a href="recruitment-form.html" aria-label="Would you like to join our team?">Recruitment</a>
-        <a href="survey.html" aria-label="Fill out our survey to get the chance to win a two hundred euro voucher">Win 200 euro voucher</a>
+    <nav class="primary-navigation">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbutton">
+            <i class="fa-solid fa-bars-staggered"></i>
+        </label>
+        <label class="logo">Jin Li Wang</label>
+        <ul>
+            <li><a class="active-1" href="#home" aria-label="Go to the top of the page">Home</a></li>
+            <li><a class="active-2" href="#menu" aria-label="Go to the menu">Menu</a></li>
+            <li><a class="active-3" href="#drinks" aria-label="Go to the drinks menu">Drinks</a></li>
+            <li><a class="active-4" href="#contact" aria-label="Go to contact information section">Contact</a></li>
+            <li><a class="active-5" href="recruitment-form.html" aria-label="Would you like to join our team?">Recruitment</a></li>
+            <li><a class="active-6" href="survey.html" aria-label="Fill out our survey to get the chance to win a two hundred euro voucher">Win 200 euro voucher</a></li>
+        </ul>
     </nav>
     <section>
         <div id="reasons">
             <!--This project was influenced by the Coders Coffeehouse website and Keep Running-->
-            <h2>Reasons to choose us</h2>
+            <h3>Reasons to choose us</h3>
             <ul id="reasons-list">
                 <li>Affordable Prices</li>
                 <li>Free Unlimited Wifi</li>
@@ -44,7 +54,7 @@
             <div id="left-starter-pictures">
                 <img src="images/spring-rolls.jpg" alt="Picture of a pile of spring rolls." class="starter-image" id="spring-rolls">
                 <br>
-                <img src="images/spare-ribs.jpg" alt="Picture of a pile of ribs." class="starter-image" id="ribs">
+                <img src="images/prawn-dumpling.jpg" alt="Picture of some delicious-looking prawn dumplings." class="starter-image" id="dumplings">
             </div>
             <div id="right-starter-pictures">
                 <img src="images/crispy-wonton.jpg" alt="Picture of a pile of crispy wontons." class="starter-image" id="crispy-wontons">
@@ -63,6 +73,19 @@
                     <li>Aromatic Duck<em>(Half or Quarter)</em></li>
                 </ul>
             </div>
+        </div>
+        <div id="dessert">
+            <h3>Dessert</h3>
+            <ul id="dessert-list">
+                <li>Ice-Cream</li>
+                <li>Chocolate Fudge Cake</li>
+                <li>Oreo Cheesecake</li>
+                <li>Chocolate Brownie</li>
+                <li>Eton Mess</li>
+                <li>Sponge Cake</li>
+                <li>Tang Hu Lu</li>
+            </ul>
+            <img id="ice-cream" src="images/ice-cream.jpg" alt="Picture of a bowl of ice-cream topped with freshly-bough fruits!">
         </div>
         <div id="main-dessert">
             <div id="main-course">
@@ -161,17 +184,6 @@
                     </li>
                 </ul>
             </div>
-            <div id="dessert">
-                <h3>Dessert</h3>
-                <ul id="dessert-list">
-                    <li>Ice-Cream</li>
-                    <li>Chocolate Fudge Cake</li>
-                    <li>Oreo Cheesecake</li>
-                    <li>Chocolate Brownie</li>
-                    <li>Eton Mess</li>
-                </ul>
-                <img id="ice-cream" src="images/ice-cream.jpg" alt="Picture of a bowl of ice-cream topped with freshly-bough fruits!">
-            </div>
         </div>
     </section>
 <!--Famous drinks found all over the world-->
@@ -190,7 +202,7 @@
             </ul>
         </div>
         <div>
-            <h3>Wine</h3>
+            <h3 id="wine-title">Wine</h3>
             <span id="white-wine">
                 <h4>White Wine</h4>
                 <ul>
@@ -254,10 +266,6 @@
                 </tr>
             </table>
         </div>
-        <div id="address">
-            <h3>Address</h3>
-            <p>Jin Li Wang <br> 12 Golden Koi <br>Lucky Street <br>Dublin</p>
-        </div>
         <div id="get-in-touch">
             <h3>Get in Touch</h3>
             <div>
@@ -270,6 +278,10 @@
                 <span>Email:</span>
                 <span>email@jinliwang.com</span>
             </div>
+        </div>
+        <div id="address">
+            <h3>Address</h3>
+            <p>Jin Li Wang <br> 12 Golden Koi <br>Lucky Street <br>Dublin</p>
         </div>
     </section>
 <!--Credit to google maps, I just chose a random place in Dun Laoghaire. A place that doesn't actually have any shops or restaurant in business according to google map.-->
