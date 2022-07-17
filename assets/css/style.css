@@ -99,6 +99,7 @@ nav ul li a {
 
 #check,#check-1,#check-2{
     display:none;
+    padding:0;
 }
 
 /*Styling the reasons section.*/
@@ -175,7 +176,7 @@ This section was influenced by the Keep Running project. The three sections cons
 .starter-image {
     border-radius: 50%;
     padding:10px;
-    margin:10px;
+    margin:0;
     background-color:gold;
     height:300px;
     width:300px;
@@ -435,7 +436,7 @@ legend {
         color:white;
         font-size:30px;
         line-height: 60px;
-        padding:0 50px;
+        padding:0 25px;
         font-weight: 800;
     }
 }
@@ -565,10 +566,10 @@ Changed to accomodate for the change in navigation bar.*/
         width:100%;
         height:40%;
         background-color: rgb(241, 158, 69);
-        left:-110%;
-        text-align: center;
+        left:-120%;
+        text-align: left;
         transition: all 1s;
-        z-index: 99;
+        z-index: 8;
         margin:20px 0 0;
     }
 
@@ -580,12 +581,10 @@ Changed to accomodate for the change in navigation bar.*/
         font-size:x-large;
         text-align: center;
         line-height: 50px;
-        display: inline;
     }
 
     .active-1:hover,.active-2:hover,.active-3:hover,.active-4:hover,.active-5:hover,.active-6:hover {
         background:none;
-        left:0;
         color:rgb(219, 108, 4);
     }
 
@@ -633,4 +632,15 @@ Changed to accomodate for the change in navigation bar.*/
         width:100px;
         height:100px;
     }
+}
+
+@media screen and (max-width:520px) {
+
+
+    nav ul li a {
+        font-size:large;
+        text-align: center;
+        line-height: 35px;
+    }
+
 }
