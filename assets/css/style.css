@@ -46,7 +46,7 @@ h1 {
 /*Styling for the navigation section. This was made based on a youtube channel.*/
 
 .logo{
-    background-color:none;
+    background:none;
     box-sizing: border-box;
     padding:0;
     margin:0;
@@ -132,7 +132,7 @@ nav ul li a {
 
 #menu {
     color:black;
-    font-style:'EB Garamond',sans-serif;
+    font-family:'EB Garamond',sans-serif;
     font-size: x-large;
     text-align: center;
     height:auto;
@@ -251,7 +251,7 @@ This section was influenced by the Keep Running project. The three sections cons
     line-height: 35px;
 }
 
-#drinks > div,  #drinks span, #drinks h2{
+#drinks div, #drinks h2{
     background-color: rgba(255, 255, 255, 0.542);
 }
 
@@ -263,8 +263,10 @@ This section was influenced by the Keep Running project. The three sections cons
 /*Starting the wine menu*/
 
 #wine {
-    margin:45px;
+    margin:auto;
     padding:25px;
+    height:200px;
+    width:300px;
 }
 
 #white-wine {
@@ -309,7 +311,7 @@ ul {
 }
 
 #table {
-    background-color: none;
+    background: none;
     margin-left: auto;
     margin-right: auto;
     color:white;
@@ -341,6 +343,7 @@ ul {
 
 iframe {
     margin:25px 0;
+    width:100%;
 }
 
 /*Styling the footer's section.*/

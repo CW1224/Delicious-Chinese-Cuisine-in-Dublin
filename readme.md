@@ -126,12 +126,64 @@ I created three web pages altogether for my website, one for the home page, one 
 * [W3C Markup](https://validator.w3.org/) and [Jigsaw validation](https://jigsaw.w3.org/) tools were used to check for bugs in my code.
 
 * [Ami](https://amiresponsive.co.uk/) was used to check how responsive my website is on different electronic devices.
+
+* [Font Awesome](https://fontawesome.com/) was used to allow an icon to be added in.
+
 # Testing
 
 [Return to the Table of Contents](#table-of-contents)
+
+
+## Manual Testing
+
+## 
+
+
 # Bugs
 
 [Return to the Table of Contents](#table-of-contents)
+
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+This showed up on my previous repository and I wasn't sure what I was doing wrong. I tried to change the setting and inserting new commands but this always shows up when I enter one. I created this new repository and copied and pasted everything from my previous repository to this one. Therefore all the commits I've made on this repository are from the same time. Also, in the beginning of this project I forgot to commit, I just saved everything I've done and continued on where I left off. I would start commiting from now on. All I've done in my previous file is the HTMl part of my project. I'm going to start my CSS part now. [11/07/2022 22:21]
+
+## Index.html file
+
+![screenshot-1]()
+
+I changed the "span" elements for "div" elements. This way it got rid of the first four errors (1 - 8). So now, I know that the "ul" and "h1-h6" elements cannot be a child of the "span" element.
+
+![screenshot-2]()
+
+I deleted the height and width attribute from the wine image and placed it in the css tab. This got rid of the next two errors (5 + 6). I did the same thing with the "iframe" element, I deleted from the index.html file and transferred it to the css file. This got rid of error 7. For the last warning, I changed the "section" element to a "div" element because I don't think the "iframe" element needs a title. By doing all these steps, the image below showed up.
+
+![screenshot-3]()
+
+## Recruitment-form.html
+
+![screenshot-4]()
+
+I deleted the "px" value from the end of the rows and cols, this got rid of the second two errors (2 + 3). There was an extra "/label" element behind the second address line that I deleted. By doing these steps, the bottom image was achieved.
+
+![screenshot-5]()
+
+## Survey.html
+
+![screenshot-6]()
+
+I got rid of the "rem" value on the "textarea" element which then eliminated the second error. I inserted an id of "fav-starter" to the "datalist" element and I was successful in solving the third error. I got rid of the first two errors by adding in an "option" element which has a value of nothing. By completing the above steps, I successfully achieved the below image.
+
+![screenshot-7]()
+
+## Style.css
+
+![screenshot-8]()
+
+I got rid of the "color" in "background-color" to get rid of the first and third error. I adjusted the "font-style" element to "font-family". After these two minor changes, the image below was shown.
+
+![screenshot-9]()
+
 # Deployment
 
 [Return to the Table of Contents](#table-of-contents)
@@ -144,7 +196,7 @@ The site was deployed to Github using the following steps:
 - Select pages on the left menu bar.
 - Click on the main branch and save it.
 - This will generate a live link in which your website can be found.
-- The link to my website can be found [here]().
+- The link to my website can be found [here](https://cw1224.github.io/Delicious-Chinese-Cuisine-in-Dublin/).
 
 # Acknowledgements
 
@@ -172,9 +224,9 @@ The site was deployed to Github using the following steps:
 
 * For the navigation link, the youtube channel https://www.youtube.com/watch?v=oLgtucwjVII was used and modified.
 * For the Readme file, reference of https://github.com/dhakal79/Portfolio-project-MS1 was considered.
-
-
-
-fatal: not a git repository (or any parent up to mount point /)
-Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
-(This showed up on my previous repository and I'm not sure what I am doing wrong. I tried to change the setting and inserting new commands but this always shows up when I enter one. I created this new repository and copied and pasted everything from my previous repository to this one. Therefore all the commits I've made on this repository are from the same time. Also, in the beginning of this project I forgot to commit, I just saved everything I've done and continued on where I left off. I would start commiting from now on. All I've done in my previous file is the HTMl part of my project. I'm going to start my CSS part now. [11/07/2022 22:21])
+* The majority of dishes that I have on this menu came from my father. He is a chef and he has made beautiful chinese cuisine for our family overr the years. Some of these dishes can also be found in chinese restaurants all over Dublin.
+* The fa-solid fa-bars-staggered came from Font Awesome.
+* The triple columns were an idea I got from doing the Keep Running project.
+* The idea of making a form and survey came from the Coder's Coffeehouse project.
+* The ideas and code I implemented into this project were taught to me by Code Institute.
+* My mentor Marcel Mulders supported me throughout the whole project. I couldn't have done it without his help.
