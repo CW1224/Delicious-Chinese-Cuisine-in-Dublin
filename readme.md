@@ -8,26 +8,28 @@ Chinese culture has been a huge part of my life. Chinese food always makes an ap
 You can find a link to my website [here]()
 
 # Table of Contents
-[1.User Experience(UX)]()
-- [1.1 User Goals](#user-goals)
-- [1.2 User Expectations](#user-expectations)
-- [1.3 Colour Scheme and Font](#color-scheme-and-font)
-- [1.4 Visual Images](#visual-images)
-- [1.5 Skeleton Framework](#skeleton-framework)
-    - [1.5.1 Front Page](#front-page)
-    - [1.5.2 Recruitment and Survey Page](#recruitment-and-survey-page)
+[1.User Experience(UX)](#1-user-experience)
+- [1.1 User Goals](#1.1-user-goals)
+- [1.2 User Expectations](#1.2-user-expectations)
+- [1.3 Colour Scheme and Font](#1.3-color-scheme-and-font)
+- [1.4 Visual Images](#1.4-visual-images)
+- [1.5 Skeleton Framework](#1.5-skeleton-framework)
+    - [1.5.1 Front Page](#1.5.1-front-page)
+    - [1.5.2 Recruitment and Survey Page](#1.5.2recruitment-and-survey-page)
 
-[2.Features](#features)
+[2.Features](#2-features)
 
-[3.Technology](#technology)
+[3.Technology](#3-technology)
 
-[4.Testing](#testing)
+[4.Testing](#4-testing)
 
-[5.Bugs](#bugs)
+[5.Bugs](#5-bugs)
 
-[6.Deployment](#deployment)
+[6.Deployment](#6-deployment)
 
-[7.Acknowledgements](#acknowledgements)
+[7. Project Completion](#7-project-completion)
+
+[8.Acknowledgements](#8-acknowledgements)
 
 # 1. User Experience
 
@@ -103,6 +105,8 @@ I created three web pages altogether for my website, one for the home page, one 
 
 ## 2.1 Same Features on all Three Web Pages
 
+### Navigation Bar (Website Version)
+
 The navigation menu is the same on all three web pages.
 See the image below. 
 
@@ -110,12 +114,94 @@ See the image below.
 
 It consists of an orange background that is fixed to the top of the web page and had the name of the restaurant on it. The navigation links are in white on the right hand side and will 'light-up' when the mouse hovers over it.
 
+### Navigation Bar (Mobile Version)
+
+![Nav Bar Mobile]()
+
+Similar to the web page navigation bar, the mobile version of the navigation bar is also orange. However, instead of the 'light-up' effect, the white letters just turn a deeper orange when hovered over. Also, instead of the navigation links being on the right hand side of the nav bar, an icon is there instead. When it is clicked, the navigation links will show up as below.
+
+![Nav bar Mobile Open]()
+
+### Hero Image
+
+The image I used as the "hero-image" of the three websites are the same. The only difference is that on the index.html page or the main webpage, I used the center part of the image whereas on the other two 'form' websites, the top of the image is used.
+
+![Hero Image Center]()
+![Hero Image Top]()
+
+The mobile version of the home page are the exact same except that they are on a smaller scale but it still spans the width of the page as shown below.
+
+![Hero Image Mobile Version]()
 ## 2.2 Index.html
+
+This page consists of the 'hero image' with the heading written on it, a menu, a drinks section, a contact information section, an iframe and a footer.
+
+![Hero Image]()
+
+The name of the restaurant is Jing Li Wang. 
+
+![Menu]()
+
+The menu is where the second navigation link brings you. It consists of a starter, a main course and a dessert section. 
+
+![Starters Webpage]()
+
+The starters section is ddivided into three divisions. The Keep Running Project gave me this idea. The central block is where the starter dishes are listed and the two side blocks contain pictures of some of the starters.
+
+![Main Course]()
+
+The main course consists of a list of dishes that have a dropdown function. When you open them, a detailed explanation shows up and some of the dropdowns even contain an image of the dish.
+
+![Main Course Open]()
+![Dessert]()
+
+The dessert is listed beside the main course on a webpage whereas on a mobile, it is listed below the main course.
+
+![Drinks]()
+
+The drinks section contains a fixed background of koi fish swimming. 
+
+![Contact]()
+
+I separated the contact information section into three parts, one for contact details, one for address and one for opening times. On a mobile device, they will stack on top of each other.
+
+![Contact Mobile]()
+
+![Map]()
+
+The iframe shows the 'location' of the restaurant.(I just took a random place on the map) It is styled so that it would always take up the whole width of the page.
+
+![Footer]()
+
+The footer section consists of links to facebook, instagram and twitter. It also contains a copyright logo. (An idea I took from the Coder's Coffeehourse Website)
+
 
 ## 2.3 Recruitment-form.html
 
+The Recruitment Form consists of a navigation bar, a "hero image" and a form. The form asks for some personal questions like the name and age of the person applying, some of of their past experience and whether 
+they are legible to work or not. The form scales itself according to the screen size it is displayed on. This is shown below:
+
+![Form on Web Page]()
+
+This is the layout of the form on a web page.
+
+![Form on Mobile]()
+
+This is the layout of the form on a mobile.
+
+![Form on IPad]()
+
+This is the layout of the form on an Ipad.
+
 ## 2.4 Survey.html
 
+Other than the 'hero-image' and navigation bar, survey.html also contains a form, just like the recruitment-form above. The questions that are asked includes the number of times a customer visits the restaurant, the customer's favourite dishes, the number of people the customer usually comes with and how does the customer think of the restaurant's service. Some of these are multiple choice questions, and some are fill in the blanks. 
+
+![Survey Website]()
+
+If you have filled the form out correctly, the image below would be shown.
+
+![Survey Correct Submission]()
 
 # 3. Technology
 
@@ -150,7 +236,48 @@ It consists of an orange background that is fixed to the top of the web page and
 
 ## 4.1 Manual Testing
 
+I manually tested by website using the 'inspect' tool built into the chrome browser that allowed me to view my website on different screen sizes.
 
+### 4.1.1 Navigation Bar Test for All Three Web Pages
+
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Home | Upon clicking the home button, the link directs me to the top of the main page. When I hover over the home button, it 'lights up' on a desktop and when I hover over it on a smaller browser, the color of the home text becomes orange. This worked for all three pages. | Pass
+Menu | Upon clicking the menu button, the link directs me to the menu on the main page. When I hover over the menu button, it 'lights up' on a desktop and when I hover over it on a smaller browser, the color of the menu text becomes orange. This worked for all three pages. | Pass
+Drinks | Upon clicking the drinks button, the link directs me to the drinks menu on the main page. When I hover over the drinks button, it 'lights up' on a desktop and when I hover over it on a smaller browser, the color of the drinks text becomes orange. This worked for all three pages. | Pass
+Recruitment | Upon clicking the recruitment button, the link redirects me to the recruitment web page. When I hover over the recruitment button, it 'lights up' on a desktop and when I hover over it on a smaller browser, the color of the recruitment text becomes orange. This worked for all three pages. | Pass
+Win 200 euro voucher | Upon clicking the "Win 200 euro voucher" button, the link redirects me to the page that contains the survey. When I hover over the "Win 200 euro voucher" button, it 'lights up' on a desktop and when I hover over it on a smaller browser, the color of the "Win 200 euro voucher" text becomes orange. This worked for all three pages. | Pass
+
+![Hover on Desktop]()
+
+![Hover on Smaller Screen]()
+
+### 4.1.2 Menu Dropdown On Different Devices
+
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Iphone SE | Upon clicking the little triangle icon beside the dish name, a little paragraph describing the dish appears. A picture appears in some of them. |
+Pass
+Iphone 12 Pro | Upon clicking the little triangle icon beside the dish name, a little paragraph describing the dish appears. A picture appears in some of them. |
+Pass
+Ipad mini | Upon clicking the little triangle icon beside the dish name, a little paragraph describing the dish appears. A picture appears in some of them. |
+Pass
+
+### 4.1.3 Footer
+
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Instagram | Upon clicking the Instagram button, I get redirected to the Instagram main page. | Pass
+Facebook | Upon clicking the Facebook button, I get redirected to the Facebook main page. | Pass
+Twitter | Upon clicking the Twitter button, I get redirected to the Twitter main page. | Pass
+
+### 4.1.4 Website Analysis on a Desktop using Lighthouse
+
+![Website Analysis on Desktop]()
+
+### 4.1.5 Website Analysis on a Mobile using Lighthouse
+
+![Website Analysis on Mobile]()
 
 ## 4.2 Testing with Tools
 
@@ -228,7 +355,7 @@ I got rid of the "color" in "background-color" to get rid of the first and third
 
 ![screenshot-9](/assets/screenshot/screenshot-pass-4.png)
 
-# Deployment
+# 6. Deployment
 
 [Return to the Table of Contents](#table-of-contents)
 
@@ -242,7 +369,11 @@ The site was deployed to Github using the following steps:
 - This will generate a live link in which your website can be found.
 - The link to my website can be found [here](https://cw1224.github.io/Delicious-Chinese-Cuisine-in-Dublin/).
 
-# Acknowledgements
+# 7. Project Completion
+
+
+
+# 8. Acknowledgements
 
 [Return to the Table of Contents](#table-of-contents)
 
