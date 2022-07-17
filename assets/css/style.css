@@ -502,6 +502,60 @@ legend {
     #check:checked ~ ul,#check-1:checked ~ ul,#check-2:checked ~ ul {
         left:0;
     }
+
+    #starters {
+        height:770px;
+        background-color: pink;
+        width:90%;
+        margin:auto;
+        padding:10px;
+    }
+
+    #ice-cream {
+        height:200px;
+        width:200px;
+    }
+
+    img {
+        width:200px;
+        height:200px;
+    }
+
+    #main-course {
+        background-color:rgb(247, 247, 134);
+        padding:10px;
+        height:auto;
+        width:90%;
+        line-height: 35px;
+        margin:auto;
+    }
+    
+    #main-course > p {
+        padding:10px 0 0;
+    }
+    
+    #main-course h3 {
+        margin:15px 0 45px 0;
+    }
+    
+    #main-course-list {
+        width:800px;
+    }
+    
+    .main-course-images {
+        width:400px;
+        height:350px;
+    }
+
+    #dessert {
+        margin:auto;
+        background-color: rgb(163, 233, 70);
+        float:none;
+        width:90%;
+        height:778px;
+        padding:10px;
+    }
+
 }
 
 /*Modified to accomadate the screen of a mobile phone.*/
