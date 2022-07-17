@@ -142,7 +142,7 @@ The site was deployed to Github using the following steps:
 - Create a respository and add in Code Institute template.
 - Click on settings which is beside gitpod button on the navigation bar.
 - Select pages on the left menu bar.
-- Click on the master branch and save it.
+- Click on the main branch and save it.
 - This will generate a live link in which your website can be found.
 - The link to my website can be found [here]().
 
