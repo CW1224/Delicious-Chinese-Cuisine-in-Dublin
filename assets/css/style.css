@@ -511,6 +511,13 @@ legend {
         padding:10px;
     }
 
+    .starter-image {
+        padding:5px;
+        background-color:gold;
+        height:200px;
+        width:200px;
+    }
+
     #ice-cream {
         height:200px;
         width:200px;
@@ -554,15 +561,6 @@ legend {
         width:90%;
         height:778px;
         padding:10px;
-    }
-
-    #left-starter-pictures{
-        margin:0;
-    }
-    
-    
-    #right-starter-pictures{
-        margin:0;
     }
 }
 
