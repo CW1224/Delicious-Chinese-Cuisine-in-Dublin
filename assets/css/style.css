@@ -556,6 +556,14 @@ legend {
         padding:10px;
     }
 
+    #left-starter-pictures{
+        margin:0;
+    }
+    
+    
+    #right-starter-pictures{
+        margin:0;
+    }
 }
 
 /*Modified to accomadate the screen of a mobile phone.*/
@@ -615,10 +623,6 @@ legend {
         margin: auto;
         padding-top: 20px;
     }
-}
-
-/*Modified to accomadate the screen of a mobile phone.*/
-@media screen and (max-width:520px) {
     .forms {
         margin:10px auto;
         width:90%;
@@ -673,9 +677,8 @@ legend {
         margin-right:30px;
         cursor: pointer;
     }
-
-
 }
+
 /*Modified to acccomadate the smallest screen size.*/
 @media screen and (max-width:400px) {
 
