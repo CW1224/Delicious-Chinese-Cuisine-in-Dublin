@@ -110,68 +110,64 @@ I created three web pages altogether for my website, one for the home page, one 
 The navigation menu is the same on all three web pages.
 See the image below. 
 
-![Nav Bar Website]()
+![Nav Bar Website](/assets/screenshot/nav-desktop.png)
 
 It consists of an orange background that is fixed to the top of the web page and had the name of the restaurant on it. The navigation links are in white on the right hand side and will 'light-up' when the mouse hovers over it.
 
 ### Navigation Bar (Mobile Version)
 
-![Nav Bar Mobile]()
+![Nav Bar Mobile](/assets/screenshot/navigation-link-mobile.png)
 
 Similar to the web page navigation bar, the mobile version of the navigation bar is also orange. However, instead of the 'light-up' effect, the white letters just turn a deeper orange when hovered over. Also, instead of the navigation links being on the right hand side of the nav bar, an icon is there instead. When it is clicked, the navigation links will show up as below.
 
-![Nav bar Mobile Open]()
+![Nav bar Mobile Open](/assets/screenshot/mobile-nav-open.png)
 
 ### Hero Image
 
 The image I used as the "hero-image" of the three websites are the same. The only difference is that on the index.html page or the main webpage, I used the center part of the image whereas on the other two 'form' websites, the top of the image is used.
 
-![Hero Image Center]()
-![Hero Image Top]()
+![Hero Image Center](/assets/screenshot/hero-center.png)
+![Hero Image Top](/assets/screenshot/hero-top.png)
 
 The mobile version of the home page are the exact same except that they are on a smaller scale but it still spans the width of the page as shown below.
 
-![Hero Image Mobile Version]()
+![Hero Image Mobile Version](/assets/screenshot/heading-main-page.png)
 ## 2.2 Index.html
 
 This page consists of the 'hero image' with the heading written on it, a menu, a drinks section, a contact information section, an iframe and a footer.
 
-![Hero Image]()
-
-The name of the restaurant is Jing Li Wang. 
-
-![Menu]()
+![Hero Image](/assets/screenshot/heading-main-page.png)
 
 The menu is where the second navigation link brings you. It consists of a starter, a main course and a dessert section. 
 
-![Starters Webpage]()
-
+![Starters Webpage](/assets/screenshot/starter-desktop.png)
+![Starters Mobile](/assets/screenshot/starter-mobile.png)
 The starters section is ddivided into three divisions. The Keep Running Project gave me this idea. The central block is where the starter dishes are listed and the two side blocks contain pictures of some of the starters.
 
-![Main Course]()
+![Main Course](/assets/screenshot/main-course.png)
 
 The main course consists of a list of dishes that have a dropdown function. When you open them, a detailed explanation shows up and some of the dropdowns even contain an image of the dish.
 
-![Main Course Open]()
-![Dessert]()
+![Main Course Open](/assets/screenshot/main-course-open.png )
+![Dessert](/assets/screenshot/dessert.png)
 
 The dessert is listed beside the main course on a webpage whereas on a mobile, it is listed below the main course.
 
-![Drinks]()
+![Drinks](/assets/screenshot/drinks.png)
 
 The drinks section contains a fixed background of koi fish swimming. 
 
-![Contact]()
+![Contact](/assets/screenshot/desktop-contact.png)
 
 I separated the contact information section into three parts, one for contact details, one for address and one for opening times. On a mobile device, they will stack on top of each other.
 
-![Contact Mobile]()
+![Contact Mobile](/assets/screenshot/mobile-contact.png)
 
-![Map]()
+![Map](/assets/screenshot/iframe.png)
 
 The iframe shows the 'location' of the restaurant.(I just took a random place on the map) It is styled so that it would always take up the whole width of the page.
 
-![Footer]()
+![Footer](/assets/screenshot/footer.png)
 
 The footer section consists of links to facebook, instagram and twitter. It also contains a copyright logo. (An idea I took from the Coder's Coffeehourse Website)
 
@@ -181,15 +177,15 @@ The footer section consists of links to facebook, instagram and twitter. It also
 The Recruitment Form consists of a navigation bar, a "hero image" and a form. The form asks for some personal questions like the name and age of the person applying, some of of their past experience and whether 
 they are legible to work or not. The form scales itself according to the screen size it is displayed on. This is shown below:
 
-![Form on Web Page]()
+![Form on Web Page](/assets/screenshot/desktop-form.png)
 
 This is the layout of the form on a web page.
 
-![Form on Mobile]()
+![Form on Mobile](/assets/screenshot/mobile-form.png)
 
 This is the layout of the form on a mobile.
 
-![Form on IPad]()
+![Form on IPad](/assets/screenshot/ipad-form.png)
 
 This is the layout of the form on an Ipad.
 
@@ -197,11 +193,11 @@ This is the layout of the form on an Ipad.
 
 Other than the 'hero-image' and navigation bar, survey.html also contains a form, just like the recruitment-form above. The questions that are asked includes the number of times a customer visits the restaurant, the customer's favourite dishes, the number of people the customer usually comes with and how does the customer think of the restaurant's service. Some of these are multiple choice questions, and some are fill in the blanks. 
 
-![Survey Website]()
+![Survey Website](/assets/screenshot/survey.png)
 
 If you have filled the form out correctly, the image below would be shown.
 
-![Survey Correct Submission]()
+![Survey Correct Submission](/assets/screenshot/correct-submission.png)
 
 # 3. Technology
 
@@ -248,20 +244,17 @@ Drinks | Upon clicking the drinks button, the link directs me to the drinks menu
 Recruitment | Upon clicking the recruitment button, the link redirects me to the recruitment web page. When I hover over the recruitment button, it 'lights up' on a desktop and when I hover over it on a smaller browser, the color of the recruitment text becomes orange. This worked for all three pages. | Pass
 Win 200 euro voucher | Upon clicking the "Win 200 euro voucher" button, the link redirects me to the page that contains the survey. When I hover over the "Win 200 euro voucher" button, it 'lights up' on a desktop and when I hover over it on a smaller browser, the color of the "Win 200 euro voucher" text becomes orange. This worked for all three pages. | Pass
 
-![Hover on Desktop]()
+![Hover on Desktop](/assets/screenshot/hover-webpage.png)
 
-![Hover on Smaller Screen]()
+![Hover on Smaller Screen](/assets/screenshot/hover-small-webpage.png)
 
 ### 4.1.2 Menu Dropdown On Different Devices
 
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
-Iphone SE | Upon clicking the little triangle icon beside the dish name, a little paragraph describing the dish appears. A picture appears in some of them. |
-Pass
-Iphone 12 Pro | Upon clicking the little triangle icon beside the dish name, a little paragraph describing the dish appears. A picture appears in some of them. |
-Pass
-Ipad mini | Upon clicking the little triangle icon beside the dish name, a little paragraph describing the dish appears. A picture appears in some of them. |
-Pass
+Iphone SE | Upon clicking the little triangle icon beside the dish name, a little paragraph describing the dish appears. A picture appears in some of them. | Pass
+Iphone 12 Pro | Upon clicking the little triangle icon beside the dish name, a little paragraph describing the dish appears. A picture appears in some of them. | Pass
+Ipad mini | Upon clicking the little triangle icon beside the dish name, a little paragraph describing the dish appears. A picture appears in some of them. | Pass
 
 ### 4.1.3 Footer
 
@@ -273,11 +266,11 @@ Twitter | Upon clicking the Twitter button, I get redirected to the Twitter main
 
 ### 4.1.4 Website Analysis on a Desktop using Lighthouse
 
-![Website Analysis on Desktop]()
+![Website Analysis on Desktop](/assets/screenshot/desktop-lighthouse.png)
 
 ### 4.1.5 Website Analysis on a Mobile using Lighthouse
 
-![Website Analysis on Mobile]()
+![Website Analysis on Mobile](/assets/screenshot/mobile-lighthouse.png)
 
 ## 4.2 Testing with Tools
 
@@ -304,11 +297,11 @@ I used the "Inspect" command on google chrome to check how responsive my website
 
 [W3C Markup](https://validator.w3.org/) was used to validate the html codes of my project. It was used to check if any errors were available and I had to correct them before continuing onto the next step. The image below had to be shown in order to confirm that there is no error in my project.
 
-![Confirmation-HTML]()
+![Confirmation-HTML](/assets/screenshot/w3c-html-pass.png)
 
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to check that all the code written in css were correct. The image below tells me that there are no errors present in my code.
 
-![Confirmation-CSS]()
+![Confirmation-CSS](/assets/screenshot/w3c-css-pass.png)
 
 # 5. Bugs
 
