@@ -61,6 +61,10 @@ The color scheme for this website are light colors. I think that the correct use
 
 The way I decided on the font style was using google fonts. I inserted the name "Jin Li Wang" into google fonts and scrolled through the list until I saw the one that was the most suitable. It took a while but eventually I decided on the font below.
 
+![Font Choose](assets/screenshot/screenshot-font-choose-1.png)
+![Font Choose](assets/screenshot/screenshot-font-choose-2.png)
+![Font Choose](assets/screenshot/screenshot-font-style.png)
+
 I used different font sizes in my project based on the placement of items and pieces of code. The sizing adjusts itself according to the screen size. I think this is important as having a font that is too big on a small iphone screen will definitely decreases a visitor's appeal and opinion of the website.
 
 ## Visual Images
@@ -82,15 +86,15 @@ I created three web pages altogether for my website, one for the home page, one 
 
 [Return to the Table of Contents](#table-of-contents)
 
-![Link to form web frame for website](/screenshot/screenshot-webframe-1.png)
-![Link to form web frame for phone](/screenshot/screenshot-webframe-2.png)
+![Link to form web frame for website](assets/screenshot/screenshot-webframe-1.png)
+![Link to form web frame for phone](assets/screenshot/screenshot-webframe-2.png)
 
 ### Recruitment and Survey Page
 
 [Return to the Table of Contents](#table-of-contents)
 
-![Link to form web frame for website](/screenshot/screenshot-webframe-4.png)
-![Link to form web frame for phone](/screenshot/screenshot-webframe-3.png)
+![Link to form web frame for website](assets/screenshot/screenshot-webframe-4.png)
+![Link to form web frame for phone](assets/screenshot/screenshot-webframe-3.png)
 
 # 2. Features
 
